@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = '[https://nephera-production.up.railway.app](https://nephera-production.up.railway.app)';
 
 export async function apiFetch(endpoint, options = {}) {
   const response = await fetch(`${API_URL}${endpoint}`, {
